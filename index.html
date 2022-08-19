@@ -1,12 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/0533a2066f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Bree+Serif&family=Cormorant+SC:wght@700&family=Edu+VIC+WA+NT+Beginner&family=Kanit:ital@1&family=Koulen&family=Playfair+Display:ital@1&family=Poppins:wght@400;500;700&family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <img class="logo" src="./Image/logo.jpg" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end fs-5 m-4 p-3" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#services">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">About Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+       <section class="container mt-5">
+           <div class="row">
+               <div class="col-lg-8 col-sm-6 col-md-6 mt-5 p-5">
+                   <h1>Hey, I'm Nabid Hasan Sany <br><span><h2>Web Developer From Dhaka,<br>Bangladesh</h2></span></h1>
+                   <a class="btn btn-dark mt-2" href="">Contact Me</a>
+               </div>
+               <div class="col-lg-4 col-sm-6 col-md-6">
+                   <img class="img-fluid me-5" src="./Image/img-1.jpg" alt="">
+               </div>
+           </div>
+       </section>
+       <section class="container mt-5">
+           <div class="row">
+            <div class="col-lg-7 col-sm-12 mt-5">
+                <img class="img-fluid" src="./Image/img-3.jpg" alt="">
+            </div>
+               <div id="header-text-1" class="col-lg-5 col-sm-12 mt-5">
+                   <h1>I Create Custom Website To Help Buisness To Better Online</h1>
+                   <a class="btn btn-dark mt-2" href="#projects">My Projects</a>
+               </div>
+           </div>
+       </section>
+       <section id="projects" class="container">
+           <h1 class="text-center mt-5">My Projects</h1>
+           <div class="row">
+              <div class="col-lg-4 col-sm-12 card mt-5">
+                  <img src="./Image/Screenshot_6.png" alt="">
+                  <p class="text-center mt-3 fs-5">This is a Online Based Education Platform</p>
+                  <a class="btn btn-dark" target="_blank" href="https://nabid050.github.io/EdTech-Website/">Live Site</a>
+              </div>
+              <div class="col-lg-4 col-sm-12 card mt-5">
+                  <img src="./Image/Screenshot_2.png" alt="">
+                  <p class="text-center mt-3 fs-5">This is a Online Based Convocation Platform</p>
+                  <a class="btn btn-dark mt-3" target="_blank" href="https://nabid050.github.io/Convention-Center/">Live Site</a>
+              </div>
+              <div class="col-lg-4 col-sm-12 card mt-5">
+                  <img src="./Image/Screenshot_1.png" alt="">
+                  <p class="text-center mt-3 fs-5">This is a Online Based E-Commerce Platform</p>
+                  <a class="btn btn-dark mt-2" target="_blank" href="https://nabid050.github.io/Panda-Commerce/">Live Site</a>
+              </div>
+           </div>
+       </section>
+       <section id="#services" class="container">
+        <h1 class="text-center mt-5">Services</h1>
+        <div class="row mt-5">
+           <div class="col-lg-6 col-sm-12">
+             <img id="service-img" class="image-fluid" src="./Image/download.jpg" alt="">
+           </div>
+           <div class="col-lg-6 col-sm-12 text-center">
+              <div class="mt-5">
+                <h1>1.Responsive Web Design</h1>
+                <h1>2.Front End Development</h1>
+                <h1>3.SEO Customization</h1>
+              </div>
+              <div class="d-flex text-light justify-content-around mt-5">
+                <h3 class="card bg-danger">Basic-50$</h3>
+                <h3 class="card bg-secondary">Advanced-100$</h3>
+                <h3 class="card bg-info">Premium-250$</h3>
+              </div>
+           </div>
+        </div>
+       </section>
+       <section class="container mt-5">
+        <h1 class="text-center">Customer's Reviews</h1>
+         <div class="row mt-5 text-center">
+            <div class="col-lg-6 col-sm-12">
+                <i class="fa-solid fa-quote-left"></i>
+                <h4>I took service from him for the first time. His dedication and manners were very good. Hope the quality of work will remain intact in the days to come.</h4>
+                <h5>Shawn Anderson</h5>
+                <h6>Denver, Colorado</h6>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <i class="fa-solid fa-quote-left"></i>
+                <h4>I have been working with him for the past 5 years. He completed every project very well. I am grateful to him for that. I wish him success</h4>
+                <h5>Richard Drabikowski</h5>
+                <h6>New Orleans, Lousiana</h6>
+            </div>
+         </div>
+       </section>
+    </main>
+    <footer class="bg-dark mt-5 text-center text-light p-5">
+        <h5>DwarfCoder Inc</h1>
+        <h5>Savar-1344 | Dhaka | Bangladesh</h1>
+        <h5>Privacy Policy | Terms Of Use</h5>  
+        <div class="mt-3 mx-2">
+            <i class="fa-brands fa-facebook fs-2"></i>
+            <i class="fa-brands fa-github fs-2"></i>
+            <i class="fa-brands fa-linkedin fs-2"></i>
+            <i class="fa-brands fa-twitter fs-2"></i>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

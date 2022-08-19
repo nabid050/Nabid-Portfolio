@@ -1,0 +1,24 @@
+body{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Koulen', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.logo{
+    width: 20%;
+}
+#header-text-1{
+    padding-top: 70px;
+}
+#service-img{
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

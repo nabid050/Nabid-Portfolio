@@ -18,6 +18,12 @@ body{
 #service-img{
     width: 100%;
 }
+.nav-img{
+    width: 20%;
+}
+.nav-item{
+    margin: 15px;
+}
 *{
     margin: 0;
     padding: 0;
